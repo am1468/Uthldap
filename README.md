@@ -1,10 +1,12 @@
 # Uthldap
 Used to authenticate on the University of thessaly LDAP server, created for World Wide Web Technologies Course
 
+
 # Library installation
 
 - Download Uthldap.jar and import it to your NetBeans project.
 - 'import com.uthldap.' in the class you want to use the ldap with.
+
 
 # Library usage example
 			
@@ -18,6 +20,7 @@ Used to authenticate on the University of thessaly LDAP server, created for Worl
                 out.println("<html><body>Authetication failed</body></html>");
             }
     
+
 # Library Methods
 - auth(): returns true if Authentication was Successful, false if not (wrong username/password)
 - getName(): returns users full name.
@@ -26,6 +29,7 @@ Used to authenticate on the University of thessaly LDAP server, created for Worl
 - getAlternativeMail(): returns users alternative e-mail address (other than university mail)
 - getAffiliation(): returns users affiliation, eg 'Student' for students, 'Faculty' for professors
 - getBirthYear(): returns users birth year e.g "1992"
+
 
 ## Advanced Library Methods
 - getAllAtributes(): returns all attributes available
