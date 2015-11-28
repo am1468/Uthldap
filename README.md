@@ -8,7 +8,9 @@ The University of Thessaly LDAP server requires a VPN connection in order to ope
 
 - Download Uthldap.jar and import it to your NetBeans project.
 - 'import com.uthldap.' in the class you want to use the ldap with.
+
 ![alt tag](http://i.imgur.com/rO8lK9r.png)
+
 ![alt tag](http://i.imgur.com/0YhVSmD.png)
 
 # Library usage example
