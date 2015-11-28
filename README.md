@@ -2,7 +2,7 @@
 Used to authenticate on the University of thessaly LDAP server, created for World Wide Web Technologies Course
 
 #Important Notice
-!The University of Thessaly LDAP server requires a VPN connection to operate
+The University of Thessaly LDAP server requires a VPN connection in order to operate.
 
 # Library installation
 
