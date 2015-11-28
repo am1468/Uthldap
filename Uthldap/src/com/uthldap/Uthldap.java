@@ -113,7 +113,7 @@ public class Uthldap {
      */
     public String getBirthYear(){
         if(auth)
-            return atr.get("schacDateOfBirth").toString().substring(0, 3);
+            return atr.get("schacDateOfBirth").toString().replace("schacDateOfBirth: ", "").substring(0, 4).replace(" ","");
         return "Not authenticated";
     }
     
