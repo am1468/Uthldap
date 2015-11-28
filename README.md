@@ -7,7 +7,8 @@ Used to authenticate on the University of thessaly LDAP server, created for Worl
 - 'import com.uthldap.' in the class you want to use the ldap with 
 
 # Library usage example
- Uthldap ldap = new Uthldap(user,pass);
+			
+			Uthldap ldap = new Uthldap(user,pass);
             
             if(ldap.auth()){
                 out.println("<html><body>Autheticated Youre name is:" + ldap.getName() +"</body></html>");
