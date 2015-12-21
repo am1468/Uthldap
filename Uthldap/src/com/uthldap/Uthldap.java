@@ -43,15 +43,14 @@ public class Uthldap {
             atr = ctx.getAttributes("uid=" + username + ", ou=People, dc=uth, dc=gr");
             
             ctx.close();
-            System.out.println(atr.toString());
-            
+            auth = true;
+
         } catch (AuthenticationException ex) {
               auth = false;
         }catch (NamingException ex) {
              auth=false;
         }
         
-        auth = true;
 
     }
 
